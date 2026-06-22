@@ -2,7 +2,7 @@ application:
   name: rss-bridge
   pods:
   - name: app
-    image: rssbridge/rss-bridge:latest
+    image: mirror.gcr.io/rssbridge/rss-bridge:latest
     path: /
     servicePorts:
     - 80
