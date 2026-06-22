@@ -1,0 +1,8 @@
+application:
+  name: rss-bridge
+  pods:
+  - name: app
+    image: rssbridge/rss-bridge:latest
+    path: /
+    servicePorts:
+    - 80
